@@ -1,0 +1,58 @@
+/* nav css start */
+:root{
+    --primary-color: #02918c;
+    --light-color:#ffffff;
+    --dark-color: #7e8287;
+    --a-color:#cfc91d;
+    --btn-color:#5a5918;
+}
+#main_nav{
+    background-color: var(--primary-color);
+}
+#main_nav ul li a{
+    color: var(--light-color);
+    font-weight: 800;
+    font-size: 12px;
+    /* line-height: 90.12px; */
+    padding: 13.5px 24.5px;
+}
+/* nav css end */
+/* banner section start */
+#banner{
+    position: relative;
+    height: 728px;
+    background-size: cover !important;
+    background-position: center !important;
+    z-index: 1;
+    color: var(--light-color);
+}
+#banner::after{
+    position: absolute;
+    content: '';
+    inset: 0;
+    background-color: rgba(0,0,0,0.64);
+    z-index: -1;
+}
+#banner h1{
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    line-height: 75px;
+}
+#banner p{
+    font-size: 18px;
+    line-height: 33px;
+}
+#banner img{
+    margin: 52px 0;
+}
+#banner a{
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color:var(--a-color);
+    padding: 17px 42px;
+    display: inline-block;
+    letter-spacing: 2px;
+    color:var(--btn-color);
+}
+/* banner section end */
